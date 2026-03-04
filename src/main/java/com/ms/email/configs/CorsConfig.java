@@ -16,6 +16,8 @@ public WebMvcConfigurer corsConfigurer() {
                     .allowedOrigins(
                             "http://localhost:4200",
                             "https://germanoconsultancyfront.netlify.app"
+                            "https://germanoconsultancy.com.br",
+                            "https://www.germanoconsultancy.com.br",
                     )
                     .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                     .allowedHeaders("*")
@@ -25,3 +27,4 @@ public WebMvcConfigurer corsConfigurer() {
 }
 
 }
+
