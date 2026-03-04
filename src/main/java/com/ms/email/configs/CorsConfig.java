@@ -15,7 +15,7 @@ public WebMvcConfigurer corsConfigurer() {
             registry.addMapping("/**")
                     .allowedOrigins(
                             "http://localhost:4200",
-                            "https://germanoconsultancyfront.netlify.app"
+                            "https://germanoconsultancyfront.netlify.app",
                             "https://germanoconsultancy.com.br",
                             "https://www.germanoconsultancy.com.br"
                     )
@@ -27,5 +27,6 @@ public WebMvcConfigurer corsConfigurer() {
 }
 
 }
+
 
 
